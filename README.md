@@ -1,5 +1,7 @@
 <img src="nome-svg.svg" />
 
+##
+
 ### About Me
 
 I am a passionate web developer currently studying at ETIC Algarve. Committed to continuous learning and exploring new technologies to create impactful web experiences.
@@ -16,6 +18,8 @@ I am a passionate web developer currently studying at ETIC Algarve. Committed to
     - Git for version control
     - Docker for containerization
     - Terraform for IaC
+
+##
 
 ![CodeZobac's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeZobac&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 
