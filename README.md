@@ -5,15 +5,17 @@
 I am a passionate web developer currently studying at ETIC Algarve. Committed to continuous learning and exploring new technologies to create impactful web experiences.
 ## Skills
 
-- **Languages:**
-    - Python
-    - JavaScript
-    - Bash
+- **Backend**  
+    - Python with PostgreSQL and MongoDB integration
 
-- **Front-End Development:**
-    - React
-    - Bootstrap
-    - Responsive Design
+- **Frontend**  
+    - JavaScript (Vanilla, React, Vue, Next.js)
+    - CSS and Sass
+
+- **Infrastructure**  
+    - Git for version control
+    - Docker for containerization
+    - Terraform for IaC
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeZobac&theme=solarized-light&show_icons=true&hide_border=true&layout=compact)
 
