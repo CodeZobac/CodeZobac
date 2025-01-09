@@ -1,6 +1,4 @@
-<img src="bg.svg" width="100%" height="100%"/>
-
-<img src="nome-svg.svg" />
+<img src='nome-svg.svg' />
 
 ##
 
@@ -28,4 +26,6 @@ I am a passionate web developer currently studying at ETIC Algarve. Committed to
 ### Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Afonso_Caboz-blue)](https://www.linkedin.com/in/afonsocaboz/)
+
+
 
