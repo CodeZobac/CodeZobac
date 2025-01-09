@@ -1,16 +1,23 @@
-## Hi there 👋
+<img src="nome-svg.svg" />
 
-<!--
-**CodeZobac/CodeZobac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### About Me
 
-Here are some ideas to get you started:
+I am a passionate web developer currently studying at ETIC Algarve. Committed to continuous learning and exploring new technologies to create impactful web experiences.
+## Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Languages:**
+    - Python
+    - JavaScript
+    - Bash
+
+- **Front-End Development:**
+    - React
+    - Bootstrap
+    - Responsive Design
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeZobac&theme=solarized-light&show_icons=true&hide_border=true&layout=compact)
+
+### Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Afonso_Caboz-blue)](https://www.linkedin.com/in/afonsocaboz/)
+
