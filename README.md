@@ -1,4 +1,4 @@
-<img src='nome-svg.svg' />
+<img src='public/nome-svg.svg' />
 
 ##
 
@@ -12,11 +12,12 @@ I am a passionate web developer currently studying at ETIC Algarve. Committed to
 
 - **Frontend**  
     - JavaScript (Vanilla, React, Vue, Next.js)
-    - CSS and Sass
+    - CSS, Sass and Tailwind
 
 - **Infrastructure**  
     - Git for version control
     - Docker for containerization
+    - Kubernetes
     - Terraform for IaC
 
 ##
