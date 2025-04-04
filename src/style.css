@@ -2,13 +2,13 @@
 
 :root {
     --primary-color: #0b131d;
-    --secondary-color: #009090;
+    --secondary-color: #00c0c0; /* Making the accent color brighter */
     --text-color: #ffffff;
-    --light-text: #e0e0e0;
+    --light-text: #f0f0f0; /* Brightening light text for better contrast */
     --dark-text: #333333;
     --accent-color: #ff6b6b;
-    --bg-light: rgba(255, 255, 255, 0.05);
-    --card-bg: rgba(255, 255, 255, 0.1);
+    --bg-light: rgba(255, 255, 255, 0.12); /* Increased opacity for better contrast */
+    --card-bg: rgba(255, 255, 255, 0.18); /* Increased opacity for better contrast */
     --border-radius: 12px;
     --transition: all 0.3s ease;
 }
@@ -30,7 +30,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     position: relative;
-    font-weight: 400;
+    font-weight: 600; /* Increased from 500 to 600 for better visibility */
 }
 
 .background-effect {
@@ -42,7 +42,7 @@ body {
     z-index: -1;
     background: url('../public/bg.svg');
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.6; /* Decreased opacity to make background less prominent */
 }
 
 .page-wrapper {
@@ -53,7 +53,7 @@ body {
     z-index: 1;
 }
 
-/* Header Styles */
+/* Header Styles - Enhanced for better contrast */
 .header {
     padding: 40px 0;
     margin-bottom: 50px;
@@ -65,6 +65,10 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    background-color: rgba(6, 23, 36, 0.6); /* Semi-transparent dark blue background */
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .profile-section {
@@ -117,19 +121,23 @@ body {
 
 .name {
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 900; /* Increased from 800 to 900 */
     margin-bottom: 5px;
     color: var(--text-color);
     font-family: 'Raleway', sans-serif;
     animation: slideFromRight 1s ease-in-out;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.5); /* Enhanced text shadow */
+    letter-spacing: 1px;
 }
 
 .title {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700; /* Increased from 600 to 700 */
     color: var(--secondary-color);
     margin-bottom: 15px;
     animation: slideFromRight 1s ease-in-out 0.2s both;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 0, 0, 0.4); /* Enhanced text shadow */
+    letter-spacing: 0.5px;
 }
 
 .social-links {
@@ -165,7 +173,7 @@ social-links a:hover {
 .quote {
     font-size: 1.2rem;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 600; /* Increased from 500 to 600 */
     color: var(--light-text);
     position: relative;
 }
@@ -194,12 +202,13 @@ section:hover {
 
 .section-title {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 800; /* Increased from 700 to 800 */
     margin-bottom: 25px;
     padding-bottom: 10px;
     position: relative;
     font-family: 'Raleway', sans-serif;
     color: var(--text-color);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.4); /* Added text shadow for better contrast */
 }
 
 .section-title::after {
@@ -225,7 +234,7 @@ section:hover .section-title::after {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
-    font-weight: 400;
+    font-weight: 500; /* Increased from 400 to 500 */
 }
 
 /* Skills Section */
@@ -256,6 +265,7 @@ section:hover .section-title::after {
     margin-bottom: 15px;
     color: var(--secondary-color);
     font-weight: 700;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4); /* Added text shadow */
 }
 
 .skill-list {
@@ -268,7 +278,7 @@ section:hover .section-title::after {
     position: relative;
     padding-left: 20px;
     color: var(--light-text);
-    font-weight: 500;
+    font-weight: 600; /* Increased from 500 to 600 */
 }
 
 .skill-item::before {
@@ -312,14 +322,15 @@ section:hover .section-title::after {
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: var(--text-color);
-    font-weight: 600;
+    font-weight: 700; /* Increased from 600 to 700 */
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.4); /* Added text shadow for better contrast */
 }
 
 .project-description {
     font-size: 0.9rem;
     color: var(--light-text);
     margin-bottom: 15px;
-    font-weight: 400;
+    font-weight: 500; /* Increased from 400 to 500 */
 }
 
 .project-tech {
@@ -331,11 +342,12 @@ section:hover .section-title::after {
 
 .tech-tag {
     padding: 5px 10px;
-    background-color: rgba(0, 144, 144, 0.2);
-    color: var(--secondary-color);
+    background-color: rgba(0, 144, 144, 0.3); /* Increased opacity for better contrast */
+    color: #ffffff; /* Changed to white for better contrast */
     border-radius: 20px;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600; /* Increased from 500 to 600 */
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Added text shadow */
 }
 
 .project-links {
@@ -383,7 +395,8 @@ section:hover .section-title::after {
     background-color: var(--card-bg);
     transition: var(--transition);
     width: 100%;
-    font-weight: 500;
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Added text shadow */
 }
 
 .contact-link:hover {
@@ -403,7 +416,7 @@ footer {
     margin-top: 50px;
     color: var(--light-text);
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 500; /* Increased from 400 to 500 */
 }
 
 /* Animations */
