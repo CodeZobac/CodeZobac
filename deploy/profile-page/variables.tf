@@ -33,8 +33,8 @@ variable "domain_provider" {
   type        = string
 
   validation {
-    condition     = contains(["godaddy"], var.domain_provider)
-    error_message = "The domain provider must be godaddy"
+    condition     = contains(["godaddy", "namecheap"], var.domain_provider)
+    error_message = "The domain provider must be godaddy or namecheap"
   }
 }
 

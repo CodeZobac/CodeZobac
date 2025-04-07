@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afonso Caboz | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <img src="assets/my-photo.jpg" alt="Afonso Caboz" class="profile-image">
+                    </div>
+                    <div class="profile-text">
+                        <h1 class="name">Afonso Caboz</h1>
+                        <h2 class="title">Web Developer</h2>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/afonsocaboz/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/CodeZobac" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-container">
+                    <p class="quote">"We are what we repeatedly do, excellence then is not an act but a habit"</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="about-section" id="about">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I am a passionate web developer currently studying at ETIC Algarve. 
+                    Committed to continuous learning and exploring new technologies to create impactful web experiences.
+                </p>
+            </section>
+
+            <section class="skills-section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3 class="category-title">Backend</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">Python</li>
+                            <li class="skill-item">PostgreSQL</li>
+                            <li class="skill-item">MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">Frontend</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">JavaScript (Vanilla)</li>
+                            <li class="skill-item">React</li>
+                            <li class="skill-item">Vue.js</li>
+                            <li class="skill-item">Next.js</li>
+                            <li class="skill-item">CSS</li>
+                            <li class="skill-item">Sass</li>
+                            <li class="skill-item">Tailwind</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">Infrastructure</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">Git</li>
+                            <li class="skill-item">Docker</li>
+                            <li class="skill-item">Kubernetes</li>
+                            <li class="skill-item">Terraform</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects-section" id="projects">
+                <h2 class="section-title">Portfolio Projects</h2>
+                <div class="projects-container">
+                    <!-- Project cards will be populated via JavaScript -->
+                </div>
+            </section>
+
+            <section class="contact-section" id="contact">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <a href="mailto:contact@afonsocaboz.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@afonsocaboz.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/afonsocaboz/" class="contact-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Afonso Caboz. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div class="background-effect"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

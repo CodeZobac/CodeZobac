@@ -26,7 +26,7 @@ resource "aws_acm_certificate" "certificate" {
 module "landing_page" {
   for_each = local.clients
 
-  source                        = "./landing_page"
+  source                        = "./profile-page"
   account_id                    = each.value.account_id
   client                        = each.value.client
   contact                       = each.value.contact

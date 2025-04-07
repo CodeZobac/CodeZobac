@@ -4,7 +4,7 @@ help:  ## Show help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 # Terraform variables and backend configuration
-TERRAFORM_FOLDER=.
+TERRAFORM_FOLDER=./deploy
 TERRAFORM_TFBACKEND=terraform.tfbackend
 TERRAFORM_TFVARS=terraform.tfvars
 
@@ -117,7 +117,7 @@ build: ## Build the static website for deployment
 	@echo "Creating build directory..."
 	mkdir -p $(BUILD_DIR)
 	@echo "Copying source files..."
-	cp -r src/* $(BUILD_DIR)/
+	cp -r clients/codezobac.me/* $(BUILD_DIR)/
 	@echo "Copying public assets..."
 	mkdir -p $(BUILD_DIR)/assets
 	cp -r public/* $(BUILD_DIR)/assets/
@@ -129,4 +129,12 @@ build: ## Build the static website for deployment
 	@echo "Build completed!"
 
 deploy: build ## Build and deploy the website to AWS
-	cd deploy && $(MAKE) apply TERRAFORM_FOLDER=. TERRAFORM_TFVARS=variables.tf
+	docker run \
+		-it --rm \
+		--env-file=$(SECRETS_ENV) \
+		--workdir $(DOCKER_WORKDIR) \
+		-v $(shell pwd):$(DOCKER_WORKDIR) \
+		$(DOCKER_IMAGE) \
+		-chdir=$(TERRAFORM_FOLDER) \
+		apply \
+		-var-file=$(TERRAFORM_TFVARS)

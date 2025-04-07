@@ -1,0 +1,3 @@
+bucket = "codezobac"
+key    = "terraform.tfstate"
+region = "eu-west-1"
