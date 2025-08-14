@@ -1,5 +1,7 @@
 <img src='public/nome-svg.svg' />
+
 ---
+
 > ## Full-Stack Solutions Architect & Founder
 >
 > My guiding principle is simple: **Code is a liability. A solution is an asset.**
