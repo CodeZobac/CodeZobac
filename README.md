@@ -21,7 +21,6 @@
 >| HTML5 / CSS3 / Sass|                   |                       | Kubernetes                   |
 
 ---
-> ##
 >
 > ![Afonso's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeZobac&theme=vue-dark&show_icons=true&hide_border=true)
 >
