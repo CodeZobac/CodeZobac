@@ -1,32 +1,33 @@
 <img src='public/nome-svg.svg' />
 
-##
+> ## Full-Stack Solutions Architect & Founder
+>
+> My guiding principle is simple: **Code is a liability. A solution is an asset.**
+>
+> I architect and build full-stack applications that solve core business problems, operating from the infrastructure as code (IaC) layer with Terraform and Docker, through robust backends, and up to intuitive frontend experiences. My goal is to write the least amount of code necessary to create the most value by engineering intelligent and efficient systems.
+>
+> Currently building my own startup and always open to connecting with fellow builders and visionaries.
 
-### About Me
+---
 
-I am a passionate web developer currently studying at ETIC Algarve. Committed to continuous learning and exploring new technologies to create impactful web experiences.
-## Skills
+> ## My Tech Stack
+>
+>| Frontend           | Backend           | Databases             | Infrastructure & DevOps      |
+>|--------------------|-------------------|-----------------------|------------------------------|
+>| React / Next.js    | FastAPI (Python)  | PostgreSQL            | Docker                       |
+>| Vue.js             | Node.js           | MongoDB               | Terraform (IaC)              |
+>| TypeScript         |                   |                       | AWS                          |
+>| JavaScript (ES6+)  |                   |                       | Git                          |
+>| HTML5 / CSS3 / Sass|                   |                       | Kubernetes                   |
 
-- **Backend**  
-    - Python with PostgreSQL and MongoDB integration
-
-- **Frontend**  
-    - JavaScript (Vanilla, React, Vue, Next.js)
-    - CSS, Sass and Tailwind
-
-- **Infrastructure**  
-    - Git for version control
-    - Docker for containerization
-    - Kubernetes
-    - Terraform for IaC
-
-##
-
-![CodeZobac's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeZobac&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
-
-### Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Afonso_Caboz-blue)](https://www.linkedin.com/in/afonsocaboz/)
-
-
-
+---
+> ##
+>
+> ![Afonso's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeZobac&theme=vue-dark&show_icons=true&hide_border=true)
+>
+> ## Let's Build Together
+>
+> I am always open to connecting with fellow builders, visionaries, and investors who believe in leveraging technology strategically.
+>
+> [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/afonsocaboz/)
+---
