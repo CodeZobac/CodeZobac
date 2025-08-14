@@ -24,7 +24,7 @@
 
 ---
 >
-> ![Afonso's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeZobac&theme=vue-dark&show_icons=true&hide_border=true)
+> ![alt text](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeZobac&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
 >
 > ## Let's Build Together
 >
