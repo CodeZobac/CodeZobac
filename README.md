@@ -2,13 +2,11 @@
 
 ---
 
-> ## Full-Stack Solutions Architect & Founder
+> ## Full-Stack Solutions Architect
 >
 > My guiding principle is simple: **Code is a liability. A solution is an asset.**
 >
 > I architect and build full-stack applications that solve core business problems, operating from the infrastructure as code (IaC) layer with Terraform and Docker, through robust backends, and up to intuitive frontend experiences. My goal is to write the least amount of code necessary to create the most value by engineering intelligent and efficient systems.
->
-> Currently building my own startup and always open to connecting with fellow builders and visionaries.
 
 ---
 
