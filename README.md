@@ -14,11 +14,11 @@
 >
 >| Frontend           | Backend           | Databases             | Infrastructure & DevOps      |
 >|--------------------|-------------------|-----------------------|------------------------------|
->| React / Next.js    | FastAPI (Python)  | PostgreSQL            | Docker                       |
->| Vue.js             | Node.js           | MongoDB               | Terraform (IaC)              |
->| TypeScript         |                   |                       | AWS                          |
->| JavaScript (ES6+)  |                   |                       | Git                          |
->| HTML5 / CSS3 / Sass|                   |                       | Kubernetes                   |
+>| Vite / Next.js     | FastAPI (Python)  | PostgreSQL            | Docker                       |
+>| Vue.js             | Django            | MongoDB               | Terraform (IaC)              |
+>| TypeScript         | Node.js           | Supabase              | Azure/GCP                    |
+>| JavaScript (ES6+)  | Rust (Axium)      |                       | Git                          |
+>| Tailwind CSS       |                   |                       |                              |
 
 ---
 >
