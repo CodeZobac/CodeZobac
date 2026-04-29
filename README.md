@@ -2,7 +2,7 @@
 
 ---
 
-> ## Full-Stack Solutions Architect
+> ## Systems Architect: AI & Full-Stack Integration
 >
 > My guiding principle is simple: **Code is a liability. A solution is an asset.**
 >
