@@ -6,19 +6,22 @@
 >
 > My guiding principle is simple: **Code is a liability. A solution is an asset.**
 >
-> I architect and build full-stack applications that solve core business problems, operating from the infrastructure as code (IaC) layer with Terraform and Docker, through robust backends, and up to intuitive frontend experiences. My goal is to write the least amount of code necessary to create the most value by engineering intelligent and efficient systems.
+> 𝗜 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝘀𝗰𝗮𝗹𝗮𝗯𝗹𝗲, 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗹𝗲, 𝗮𝗻𝗱 𝗰𝗼𝘀𝘁-𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗱 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁𝘀 𝗳𝗼𝗿 𝗔𝗜-𝗱𝗿𝗶𝘃𝗲𝗻 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀.
+>
+> 𝗠𝗲𝘁𝗵𝗼𝗱𝗼𝗹𝗼𝗴𝘆: A dual-core engine of 𝗬𝗶𝗻 (𝗗𝗲𝗲𝗽 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵/𝗨𝗫 𝗠𝗮𝗽𝗽𝗶𝗻𝗴) and 𝗬𝗮𝗻𝗴 (𝗔𝗜-𝗔𝘂𝗴𝗺𝗲𝗻𝘁𝗲𝗱 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻) to balance architectural integrity with high-velocity
+> deployment.
 
 ---
 
 > ## My Tech Stack
 >
->| Frontend           | Backend           | Databases             | Infrastructure & DevOps      |
->|--------------------|-------------------|-----------------------|------------------------------|
->| Vite / Next.js     | FastAPI (Python)  | PostgreSQL            | Docker                       |
->| Vue.js             | Django            | MongoDB               | Terraform (IaC)              |
->| TypeScript         | Node.js           | Supabase              | Azure/GCP                    |
->| JavaScript (ES6+)  | Rust (Axium)      |                       | Git                          |
->| Tailwind CSS       |                   |                       |                              |
+>| Frontend           | Backend & Systems | Databases             | Infrastructure & DevOps      | AI/LLM                         |
+>|--------------------|-------------------|-----------------------|------------------------------|--------------------------------|
+>| Vite / Next.js     | FastAPI (Python)  | PostgreSQL            | Docker                       | RAG Pipelines                  |
+>|                    | Django            | MongoDB               | Terraform (IaC)              | Agentic Orchestration (CrewAI) |
+>| TypeScript         | Node.js           | Supabase              | Azure/GCP                    | LLMOps (Langfuse, LiteLLM)     |
+>|                    | Rust (Axium)      | ChromaDB              | Git                          | Observability/Traceability     |
+>| Tailwind CSS       |                   |                       | CI/CD                        | AI Cumpliance                  |
 
 ---
 >
