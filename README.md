@@ -7,8 +7,9 @@
 >
 >𝗜 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝘀𝗰𝗮𝗹𝗮𝗯𝗹𝗲, 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗹𝗲, 𝗮𝗻𝗱 𝗰𝗼𝘀𝘁-𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗱 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁𝘀 𝗳𝗼𝗿 𝗔𝗹-𝗱𝗿𝗶𝘃𝗲𝗻 𝗮𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀.
 >
->I make sense of technical complexity through  𝗮𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝘃𝗲 𝗺𝗲𝗺𝗼𝗿𝘆 𝗮𝗻𝗱 𝘃𝗶𝘀𝘂𝗮𝗹 𝘁𝗵𝗶𝗻𝗸𝗶𝗻𝗴.  I connect new problems with familiar code patterns, past debugging experience, and technical >documentation, then mentally map system components, dependencies, and data flows.
->This helps me identify  𝗽𝗼𝘁𝗲𝗻𝘁𝗶𝗮𝗹 𝗳𝗮𝗶𝗹𝘂𝗿𝗲 𝗽𝗼𝗶𝗻𝘁𝘀 𝗮𝗻𝗱 𝗰𝗼𝗺𝗽𝗮𝗿𝗲 𝗮𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮𝗹 𝗮𝗽𝗽𝗿𝗼𝗮𝗰𝗵𝗲𝘀  before implementation, bringing clearer proposals to technical discussions and sharper >questions to validation.
+>I make sense of technical complexity through  𝗮𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝘃𝗲 𝗺𝗲𝗺𝗼𝗿𝘆 𝗮𝗻𝗱 𝘃𝗶𝘀𝘂𝗮𝗹 𝘁𝗵𝗶𝗻𝗸𝗶𝗻𝗴.  I connect new problems with familiar code patterns, past debugging experience, and technical documentation, then mentally map system components, dependencies, and data flows.
+> 
+>This helps me identify  𝗽𝗼𝘁𝗲𝗻𝘁𝗶𝗮𝗹 𝗳𝗮𝗶𝗹𝘂𝗿𝗲 𝗽𝗼𝗶𝗻𝘁𝘀 𝗮𝗻𝗱 𝗰𝗼𝗺𝗽𝗮𝗿𝗲 𝗮𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮𝗹 𝗮𝗽𝗽𝗿𝗼𝗮𝗰𝗵𝗲𝘀  before implementation, bringing clearer proposals to technical discussions and sharper questions to validation.
 >
 >𝗠𝗲𝘁𝗵𝗼𝗱𝗼𝗹𝗼𝗴𝘆:  A balance between  𝗗𝗲𝗲𝗽 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵/𝗨𝗫 𝗠𝗮𝗽𝗽𝗶𝗻𝗴  and  𝗔𝗜-𝗔𝘂𝗴𝗺𝗲𝗻𝘁𝗲𝗱 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻  to guarantee architectural integrity with high-velocity deployment.
 >
